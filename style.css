@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #68EACC 0%, #497BA8 100% );
+    width: 100%;
+    height: 100vh;
+    user-select: none;
+}
+.wrapper{
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    padding: 25px;
+    background-color: 25px;
+    background-color: white;
+    border-radius: 5%;
+}
+.to-do-header{
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.control-container{
+    display: flex;
+}
+input{
+    width: 85%;
+    padding: 5px;
+}
+.btn{
+    margin-left: 10px ;
+    width: 16%;
+    pointer-events: none;
+    opacity: 0.6;
+    background-color: #9932CC;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.active{
+    pointer-events: auto;
+    opacity: 1;
+}
+.active:hover{
+    cursor: pointer;
+}
+
+.content-container{
+    margin-top: 40px;
+}
+.content-list{
+    max-height: 220px;
+    text-decoration: none;
+    list-style: none;
+    overflow-y: auto;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    background-color: #e8e9e8;
+}
+.list-item div{
+    width: 80%;
+    padding: 15px 0;
+    margin-left: 10px;
+}
+.item-btn{
+    padding:  15px;
+    background-color: #FF3333;
+    border: none;
+    color: white;
+}
+.item-btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .clear-btn{
+    border: none;
+    background-color: #9932CC;
+    padding: 8px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.footer .announce{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 20px;
+}
+.clear-btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
